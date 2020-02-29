@@ -1,0 +1,25 @@
+<div class="login-container">
+    <div class="login1">
+        <span class="head-text">User Login</span>
+        <form>
+            <div class="form-group">
+                <!-- <label for="exampleInputEmail1">Email address</label> -->
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+            </div>
+            <div class="form-group">
+                <!-- <label for="exampleInputEmail1">Email address</label> -->
+                <input type="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter password">
+                <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+            </div>
+            <input type="button" class="btn btn-success" value="Login"/>
+        </form>
+        <div class="row" style="margin-top: 40px;">
+            <div class="col-md-12">
+                <span style="float: left;"><a style="color: white;" [routerLink]="'/reset-password'">Forgot Password</a></span>
+                <span style="float: right;"><a style="color: white;" [routerLink]="'/register'">Register User</a></span>
+            </div>
+        </div>
+    </div>
+
+</div>
